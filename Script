@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leia-me Auto Cheat - Bookmarklet</title>
+    <title>Leia-me Auto Cheat - Bookmarklet Corrigido</title>
     <style>
         * {
             margin: 0;
@@ -132,7 +132,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Leia-me Auto Cheat - Bookmarklet</h1>
+        <h1>Leia-me Auto Cheat - Bookmarklet Corrigido</h1>
         
         <div class="instructions">
             <h2>Como usar:</h2>
@@ -143,7 +143,7 @@
         </div>
         
         <div class="bookmarklet-box">
-            <a id="bookmarklet" href="javascript:(function(){var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/mzzvxm/LeiaPRBypass@main/script.js';document.body.appendChild(script);})();" class="bookmarklet-link">
+            <a id="bookmarklet" href="javascript:(function() { var script = document.createElement('script'); script.src = 'https://cdn.jsdelivr.net/gh/manorick/LeiaPRBypass@main/script.js'; document.body.appendChild(script); })();" class="bookmarklet-link">
                 Leia-me Auto Cheat
             </a>
             <p class="note">Arraste este link para sua barra de favoritos</p>
@@ -162,8 +162,17 @@
         </div>
         
         <div class="code-container">
-            <h3>Código do Bookmarklet (para referência):</h3>
-            <pre>javascript:(function(){var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/mzzvxm/LeiaPRBypass@main/script.js';document.body.appendChild(script);})();</pre>
+            <h3>Código do Bookmarklet Corrigido:</h3>
+            <pre>javascript:(function() {
+  var script = document.createElement('script');
+  script.src = 'https://cdn.jsdelivr.net/gh/manorick/LeiaPRBypass@main/script.js';
+  document.body.appendChild(script);
+})();</pre>
+        </div>
+        
+        <div class="warning">
+            <strong>Nota:</strong> Se você está vendo apenas "📘 Leia-me Cheat 🦇 by @manorick Gemini Ollama ⚙️ Auto: OFF Aguardando" 
+            sem botões, é porque o CSS não está carregando corretamente. O código acima foi corrigido para resolver esse problema.
         </div>
     </div>
 
